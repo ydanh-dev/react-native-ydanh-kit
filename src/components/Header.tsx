@@ -1,4 +1,4 @@
-import React from 'react';
+import type { ReactNode } from 'react';
 import {
   StyleSheet,
   View,
@@ -57,12 +57,12 @@ export interface KitHeaderProps {
   /**
    * Component to display on the right side of the header.
    */
-  rightContent?: React.ReactNode;
+  rightContent?: ReactNode;
 
   /**
    * Component to display on the left side (replaces back button if showBack is false).
    */
-  leftContent?: React.ReactNode;
+  leftContent?: ReactNode;
 
   /**
    * If true, the header will have a transparent background and absolute positioning

@@ -1,4 +1,4 @@
-import React from 'react';
+import type { ReactNode } from 'react';
 import {
   KeyboardAvoidingView,
   Platform,
@@ -9,7 +9,7 @@ import {
 
 interface KitKeyboardLayoutProps {
   /** Content to be rendered inside the layout */
-  children: React.ReactNode;
+  children: ReactNode;
   /** Custom style for the ScrollView content container */
   contentContainerStyle?: ViewStyle;
   /** Whether to show the vertical scroll indicator */

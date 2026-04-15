@@ -1,4 +1,4 @@
-import React from 'react';
+import type { ReactNode } from 'react';
 import { StyleSheet, View, Text, type ViewStyle } from 'react-native';
 
 interface KitInfoItemProps {
@@ -7,7 +7,7 @@ interface KitInfoItemProps {
   /** The actual value to display (e.g., 'John Doe') */
   value: string | number | null | undefined;
   /** Optional icon to display on the left. Can be any valid React Node (e.g., an Icon component) */
-  icon?: React.ReactNode;
+  icon?: ReactNode;
   /** Whether this is the last item in a list (removes the bottom border) */
   isLast?: boolean;
   /** Custom style for the item container */

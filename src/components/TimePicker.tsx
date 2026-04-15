@@ -1,4 +1,4 @@
-import React, { useEffect, useMemo, useRef, useState } from 'react';
+import { useEffect, useMemo, useRef, useState } from 'react';
 import {
   StyleSheet,
   View,
@@ -68,6 +68,7 @@ const WheelPicker = ({
       }, 100);
       return () => clearTimeout(timer);
     }
+    return undefined; // Ensure consistent return path
   }, [data, selectedValue]);
 
   return (

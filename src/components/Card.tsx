@@ -1,9 +1,9 @@
-import React from 'react';
+import type { ReactNode } from 'react';
 import { StyleSheet, View, type ViewStyle, Platform } from 'react-native';
 
 interface KitCardProps {
   /** Content to be rendered inside the card */
-  children: React.ReactNode;
+  children: ReactNode;
   /** Custom style for the card container */
   style?: ViewStyle;
 }

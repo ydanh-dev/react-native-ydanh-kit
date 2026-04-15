@@ -1,4 +1,4 @@
-import React, { useState } from 'react';
+import { useState, type ReactNode } from 'react';
 import {
   StyleSheet,
   View,
@@ -12,9 +12,9 @@ interface KitInputProps extends TextInputProps {
   /** Label text displayed above the input */
   label?: string;
   /** Optional icon to display on the left */
-  icon?: React.ReactNode;
+  icon?: ReactNode;
   /** Optional suffix content (like a button or icon) on the right */
-  rightContent?: React.ReactNode;
+  rightContent?: ReactNode;
   /** Custom style for the input container */
   containerStyle?: ViewStyle;
 }

@@ -47,14 +47,14 @@
   ],
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/ydanh-dev/react-native-header.git"
+    "url": "git+https://github.com/ydanh-dev/react-native-ydanh-kit.git"
   },
   "author": "Anh Duy <duynguyen1bb@gmail.com> (https://github.com/ydanh-dev)",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/ydanh-dev/react-native-header/issues"
+    "url": "https://github.com/ydanh-dev/react-native-ydanh-kit/issues"
   },
-  "homepage": "https://github.com/ydanh-dev/react-native-header#readme",
+  "homepage": "https://github.com/ydanh-dev/react-native-ydanh-kit#readme",
   "publishConfig": {
     "registry": "https://registry.npmjs.org/"
   },
