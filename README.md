@@ -1,4 +1,4 @@
-# 💎 Liquid UI Kit (React Native)
+# 💎 YDanh Kit (React Native)
 
 A premium, lightweight, and dependency-free UI Kit for React Native inspired by "Liquid Glass" design aesthetics.
 
@@ -12,7 +12,7 @@ Currently, this is a local package. To use it in your project:
 ```bash
 # In your project's package.json
 "dependencies": {
-  "react-native-liquid-ui-kit": "*"
+  "react-native-ydanh-kit": "*"
 }
 ```
 
@@ -20,7 +20,7 @@ Currently, this is a local package. To use it in your project:
 Always wrap your form screens with `KitKeyboardLayout` to handle keyboard avoiding and scrolling automatically.
 
 ```tsx
-import { KitKeyboardLayout } from 'react-native-liquid-ui-kit';
+import { KitKeyboardLayout } from 'react-native-ydanh-kit';
 
 <KitKeyboardLayout>
   {/* Your content here */}
@@ -46,6 +46,8 @@ The navigation bar of your app. Supports transparent overlay mode.
 
 #### Usage
 ```tsx
+import { KitHeader } from 'react-native-ydanh-kit';
+
 <KitHeader 
   title="Profile" 
   subtitle="Manage your settings" 
@@ -66,6 +68,8 @@ A premium container with large border radius and soft shadows.
 
 #### Usage
 ```tsx
+import { KitCard } from 'react-native-ydanh-kit';
+
 <KitCard>
   <Text>Premium Content Here</Text>
 </KitCard>
@@ -86,6 +90,8 @@ Displays a label-value pair, ideal for profile or mission details.
 
 #### Usage
 ```tsx
+import { KitInfoItem } from 'react-native-ydanh-kit';
+
 <KitInfoItem label="Status" value="Active" icon={<View style={styles.dot} />} />
 ```
 
@@ -104,6 +110,8 @@ A high-fidelity text input with focus states and labels.
 
 #### Usage
 ```tsx
+import { KitInput } from 'react-native-ydanh-kit';
+
 <KitInput label="Username" placeholder="Enter name" />
 ```
 
@@ -122,6 +130,8 @@ A bottom sheet scroll-based time picker.
 
 #### Usage
 ```tsx
+import { KitTimePicker } from 'react-native-ydanh-kit';
+
 <KitTimePicker 
   visible={show} 
   onConfirm={(date) => setTime(date)} 
@@ -144,6 +154,8 @@ A searchable list picker for selecting items (e.g., Passengers).
 
 #### Usage
 ```tsx
+import { KitCustomerPicker } from 'react-native-ydanh-kit';
+
 <KitCustomerPicker 
   visible={show} 
   customers={data} 
